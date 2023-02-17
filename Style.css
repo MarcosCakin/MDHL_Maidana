@@ -52,11 +52,11 @@ a {
 .banner {
 border: 2px solid #006D77;
 width: 100%;
-height: 45vh;
+height: 42vh;
 }
 
 .sub {
-font-size: 25px;
+font-size: 2.5vw;
 color: #006D77;
 text-decoration: underline;
 align-content: center;
@@ -90,6 +90,7 @@ padding: 6px;
 div>p {
 margin-left: 3vh;
 color: #006D77;
+font-size: 1.2vw;
 }
 
 img {
@@ -101,7 +102,7 @@ height: 37vh;
     color: #006D98;
 }
 .text>p {
-    font-size: 0.9rem;
+    font-size: 1.02vw;
     padding: 0;
 }
 
@@ -135,7 +136,8 @@ ul>li {
 }
 
 h2 {
-    text-align: start;
+    font-size: 2vw;
+    text-align: center;
     color: #006D77;
 }
 
@@ -143,4 +145,96 @@ th,tr, td{
     background-color: #006D77;
     padding: 15px;
     border: 1px solid black;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maps {
+    margin: 10px;
+    border: 1.5px solid #66D7D1;
+    opacity: 0.75;
+}
+
+h4 {
+    border: 1px solid #006D98;
+    color: #006D98;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    display: block;
+    justify-content: center;
+    color: #006D77;
+    font-size: 1vw;
+}
+
+input, .date {
+    margin: 15px;
+    color: #006D77;
+    font-size: 1.8vw;
+}
+
+span {
+    text-decoration: underline;
+    font-size: 1vw;
+}
+
+.personal, .asks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+label {
+    font-size: 1.5vw;
+    margin: 5px;
+}
+
+select, #date {
+    font-size: 1vw;
+    color: white;
+    background-color: #154e54;
+}
+
+legend {
+    text-decoration: underline;
+    font-size: 2vw;
+    text-align: center;
+    margin: 40px;
+}
+
+form>p {
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.signs {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+#today, #sign {
+    font-size: 2.2vw;
+    text-decoration: underline;
+    color: #66D7D1;
+}
+
+#send {
+    padding: 13px;
+    border: 1px solid #66D7D1;
+    border-radius: 2rem;
+}
+
+#send:hover {
+    background-color: #66D7D1;
+    color: white;
+    transition: 0.5s;
 }
