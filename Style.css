@@ -161,7 +161,7 @@ article {
 
 h4 {
     border: 1px solid #006D98;
-    color: #006D98;
+    color: #00BB77;
     font-size: 2vw;
     text-align: center;
     text-decoration: underline;
@@ -176,7 +176,7 @@ form {
 
 input, .date {
     margin: 15px;
-    color: #006D77;
+    color: white;
     font-size: 1.8vw;
 }
 
@@ -194,7 +194,7 @@ span {
 
 label {
     font-size: 1.5vw;
-    margin: 5px;
+    margin: 20px;
 }
 
 select, #date {
@@ -207,24 +207,27 @@ legend {
     text-decoration: underline;
     font-size: 2vw;
     text-align: center;
-    margin: 40px;
 }
 
-form>p {
+fieldset>p {
     font-size: 1.2vw;
     text-align: center;
 }
 
+span {
+    font-size: 1.6vw;
+}
+
 .signs {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
    
 }
 
 #today, #sign {
     font-size: 2.2vw;
     text-decoration: underline;
-    color: #66D7D1;
+    color: #006D77;
 }
 
 #send {
@@ -237,4 +240,17 @@ form>p {
     background-color: #66D7D1;
     color: white;
     transition: 0.5s;
+}
+
+fieldset {
+    color: #006D77;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 2.5rem;
+    border: 3px solid #006D77;
+}
+
+legend {
+    border: 3px solid #006D77;
+    text-decoration: none;
 }
