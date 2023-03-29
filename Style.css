@@ -59,7 +59,6 @@ height: 42vh;
 font-size: 2.5vw;
 color: #006D77;
 text-decoration: underline;
-align-content: center;
 text-align: center;
 }
 
@@ -154,9 +153,14 @@ article {
 }
 
 .maps {
-    margin: 10px;
+    margin: 15px;
     border: 1.5px solid #66D7D1;
     opacity: 0.75;
+}
+
+iframe {
+    width: 350px;
+    height: 275px;
 }
 
 h4 {
@@ -253,4 +257,9 @@ fieldset {
 legend {
     border: 3px solid #006D77;
     text-decoration: none;
+}
+
+.mapsContainer{
+    display: flex;
+    justify-content: space-around;
 }
